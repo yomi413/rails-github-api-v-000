@@ -12,4 +12,7 @@ class RepositoriesController < ApplicationController
     @results = JSON.parse(repos.body)
   end
 
+  def create
+  end
+
 end
